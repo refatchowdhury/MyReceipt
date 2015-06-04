@@ -26,7 +26,7 @@ public class dataAdapter {
     public static final String KEY_AMOUNT = "amount";
     public static final String KEY_DATE = "purchase_date";
     public static final String KEY_RECEIT = "purchase_receit";
-
+//just checking git branch change nothing to do with this file
 
     public static final String DATABASE_NAME = "myReceipt";
     public static final String DATABASE_TABLE = "recordTable";
