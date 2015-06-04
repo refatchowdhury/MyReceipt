@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c8d3fc3-9d93-41ad-802b-3f6f4353d7c8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/refat/chowdhury/myreceipt/dataAdapter.java" afterPath="$PROJECT_DIR$/src/com/refat/chowdhury/myreceipt/dataAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9c8d3fc3-9d93-41ad-802b-3f6f4353d7c8" name="Default" comment="" />
     <ignored path="MyReceipt.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/classes/" />
