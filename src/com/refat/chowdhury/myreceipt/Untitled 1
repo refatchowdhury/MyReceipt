@@ -1,0 +1,20 @@
+
+
+Application ID This is the main identifier that uniquely specifies your application. This is paired with a key to provide your clients access to your application's data.
+Copy
+Dw2DuQCloTM6pPa7MM4vvnQkzfV1aSX7JKRE3CvV
+Client Key This key should be used in consumer clients, like the iOS or Android SDK. It adheres to object level permissions.
+Copy
+nVBftz0dKXDLdIWUUyAnrDKhfl3UwDk3vqxHBhGl
+Javascript Key This key should be used when making requests from JavaScript running on a user's machine. It adheres to object-level permissions.
+Copy
+VGUrhNGoLam4zPBVDWedALNk3SaPBCHo4SyttyER
+.NET Key This key should be used when making requests from a Windows application. It adheres to object-level permissions.
+Copy
+b5LrOG2OyKF629pSOiuAu1SsTDZtNVtnpGoZF60k
+REST API Key This key should be used when making requests to the REST API. It also adheres to object level permissions.
+Copy
+
+Master Key 
+
+VnWGeKXbjAXCY2sFi39x2ijZNfcwOD4QattagKzz

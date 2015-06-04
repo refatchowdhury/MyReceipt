@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccf2f0"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/date"
+        android:textColor="#1620a5" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/etSpentWhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/ibCalender"
+        android:ems="10"
+        android:hint=""
+        android:maxLength="12"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etDate"
+        android:layout_below="@+id/etDate"
+        android:text="@string/store"
+        android:textColor="#1620a5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etSpentWhere"
+        android:layout_below="@+id/etSpentWhere"
+        android:text="@string/amount"
+        android:textColor="#1620a5" />
+
+    <ImageButton
+        android:id="@+id/ibCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_toRightOf="@+id/etDate"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/calendar"
+        android:src="@drawable/calendar" />
+
+    <ImageButton
+        android:id="@+id/ibCamera"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/ibCalender"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/camera"
+        android:radius="8dp"
+        android:src="@drawable/camera2" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/ibCamera"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/ibUpdate"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ibCamera"
+        android:layout_below="@+id/textView4"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/update"
+        android:src="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etAmount"
+        android:layout_below="@+id/etAmount"
+        android:text="@string/receipt"
+        android:textColor="#1620a5" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="216dp"
+        android:layout_height="236dp"
+        android:layout_alignRight="@+id/etAmount"
+        android:layout_alignTop="@+id/ibUpdate"
+        android:contentDescription="@string/view"
+        android:src="@drawable/receipt_big" />
+
+    <ImageButton
+        android:id="@+id/ibGraph"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv"
+        android:layout_alignLeft="@+id/ibView"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/graph"
+        android:src="@drawable/graph" />
+
+    <ImageButton
+        android:id="@+id/ibReport"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibGraph"
+        android:layout_alignRight="@+id/ibGraph"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/report"
+        android:src="@drawable/report" />
+
+    <ImageButton
+        android:id="@+id/ibView"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibReport"
+        android:layout_alignLeft="@+id/ibDelete"
+        android:layout_alignRight="@+id/ibDelete"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/delete"
+        android:src="@drawable/view" />
+
+    <ImageButton
+        android:id="@+id/ibDelete"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibView"
+        android:layout_alignRight="@+id/ibUpdate"
+        android:layout_below="@+id/ibUpdate"
+        android:background="#ccf2f0"
+        android:contentDescription="@string/delete"
+        android:src="@drawable/delete" />
+
+</RelativeLayout>

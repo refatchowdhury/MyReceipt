@@ -1,0 +1,17 @@
+Android Backup Service Key
+Thank you for registering for an Android Backup Service Key!
+
+Your key is:
+
+AEdPqrEAAAAIH01pLP1uMHZSA9eYS0X-AazXze7JGffB9ZPKqw
+
+This key is good for the app with the package name:
+
+com.refat.chowdhury.myreceipt
+
+Provide this key in your AndroidManifest.xml file with the following<meta-data> element, placed inside the<application> element:
+
+<meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIH01pLP1uMHZSA9eYS0X-AazXze7JGffB9ZPKqw" />
+
+For more information, see the Backup Dev Guide or go back to the Android Backup Service registration.
+Google color balls

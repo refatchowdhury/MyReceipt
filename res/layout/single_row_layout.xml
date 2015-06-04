@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvAmount"
+        android:layout_alignBottom="@+id/tvAmount"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="26dp"
+        android:gravity="left"
+        android:textStyle="normal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvShop"
+        android:layout_alignBottom="@+id/tvShop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:gravity="left"
+        android:textStyle="normal"
+        android:text="TextView" />
+
+</RelativeLayout>
